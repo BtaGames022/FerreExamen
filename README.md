@@ -75,7 +75,3 @@ npm run dev
 ## Base de datos
 
 El script de base de datos disponible crea una base llamada `ferremas_db`, define las tablas principales del sistema y agrega datos iniciales para roles, usuarios, categorías, productos e historial de precios. Ese diseño permite trabajar con catálogo, inventario y precios versionados, en lugar de guardar un único precio fijo dentro de la tabla de productos.
-
-## Mejoras recomendadas
-
-Para fortalecer la presentación del proyecto en GitHub, conviene agregar una descripción del repositorio, completar este README con instrucciones exactas de ejecución, documentar variables de entorno y añadir capturas de pantalla del sistema. También sería útil detallar endpoints de la API y explicar cómo se resuelve la consulta del precio actual desde `Historial_Precio`.[1][2]
